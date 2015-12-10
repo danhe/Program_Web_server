@@ -1,7 +1,9 @@
-var fs = require('fs');
+var fs = require('fs');//filesystem de module
 
 var filename = process.argv[2];
 
-file = fs.readFile(filename, function(err, data) {
-  console.log(data.toString().split('\n').length - 1);
-});
+buf = fs.readFileSync(filename); //return an object Buffer
+
+var str = buf.toString();
+
+console.log(str.split('\n').length - 1);
