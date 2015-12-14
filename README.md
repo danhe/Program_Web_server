@@ -10,3 +10,4 @@ This is the course "Programmable Web Server" of my 5th year in computer science.
 - 6.Modular: prints a list of files in a given directory, filtered by the extension of the files with a module
 - 7.HTTP Client: a http client, GET reuest to a URL
 - 8. HTTP Collect: use a third-party package, bl && concat-stream
+- 9. HTTP Juggline async: print the responses of the urls
